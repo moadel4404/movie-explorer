@@ -186,6 +186,11 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-800">
+                  <Link to="/genres" onClick={() => setMenuOpen(false)}>
+                    Genres
+                  </Link>
+                </li>
+                <li className="px-4 py-2 hover:bg-gray-800">
                   <Link to="/about" onClick={() => setMenuOpen(false)}>
                     About
                   </Link>
@@ -230,3 +235,4 @@ export default function Navbar() {
     </>
   );
 }
+
