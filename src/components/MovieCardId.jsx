@@ -26,7 +26,7 @@ function MovieCardId({id}) {
   }
 
   return (
-    <div className="group flex flex-col w-[100px] h-[160px] mb-10 cursor-pointer" onClick={navToMovie}>
+    <div className="group flex flex-col w-[100px] h-[160px] mb-50 cursor-pointer" onClick={navToMovie}>
       <div className="relative">
         <div className="w-[200px] h-[300px] overflow-hidden rounded-md bg-[#1F1F1F]">
           <img
@@ -51,3 +51,4 @@ function MovieCardId({id}) {
 }
 
 export default MovieCardId;
+
