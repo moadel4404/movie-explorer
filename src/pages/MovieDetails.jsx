@@ -71,7 +71,7 @@ function MovieDetails() {
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover"
           style={{
-            backgroundImage: `url("${`https://image.tmdb.org/t/p/w500${movie.backdrop_path}`}")`,
+            backgroundImage: `url("${`https://image.tmdb.org/t/p/original${movie.backdrop_path}`}")`,
           }}
         />
 
@@ -144,3 +144,4 @@ function MovieDetails() {
 }
 
 export default MovieDetails;
+
