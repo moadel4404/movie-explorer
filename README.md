@@ -5,6 +5,12 @@ Users can browse popular, top-rated, and genre-specific movies, search for title
 
 ---
 
+
+## 🚀 Live Demo
+[Click here to view the live application](https://movie-explorer-ebon-eight.vercel.app/)
+
+---
+
 ## 🚀 Features
 - 🔑 User Authentication (Login & Signup)
 - 🎥 Browse movies by category (Popular, Top Rated, Genres)
